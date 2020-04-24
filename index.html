@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <!---------Swiper---------->
+  <link rel="stylesheet" href="./css/Swiper-css/swiper.min.css">
+  <script src="./js/Swiper-js/swiper.min.js"></script>
+  <!---- Bootstrap ----->
+  <link rel="stylesheet" href="./css/Bootstrap-css/bootstrap.min.css">
+  <script src="./js/jquery/jquery-3.4.1.min.js"></script>
+  <script src="./js/Bootstrap-js/bootstrap.bundle.min.js"></script>
+  <!------ Google Fonts ------>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <!---- Font Awesome ----->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css" />
+  <link rel="stylesheet" href="./css/fontawesome/fontawesome-all.min.css" />
+  <!------ Typing Effect ------>
+  <script src="./js/typewriting/typed.min.js"></script>
+  <!-------Mixitup Portfolio Effect-------->
+  <script src="./js/Mixitup/mixitup.min.js"></script>
+  <!------- Animation ------->
+  <link rel="stylesheet" href="./css/animation/fading_entrances/fadeInLeft.css" />
+  <!---------Lightbox-------->
+  <link rel="stylesheet" href="./css/lightbox-css/lightgallery.min.css">
+  <script src="./js/lightbox-js/lightgallery-all.min.js"></script>
+  <!----- Custom Css ------>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./breakpoint.css" />
+</head>
+
+<body>
+  <section class="container">
+    <!-------------- Header Part ---------------->
+    <header>
+      <!-------------- Toggle Part ---------------->
+      <div class="toggle-bar">
+        <div class="left-toggle">
+          <div class="name">Mohammad Sayem</div>
+          <div id="typed-strings-top">
+            <p>Web Designer</p>
+            <p>Graphic Designer</p>
+            <p>Web Developer</p>
+          </div>
+          <p class="typing"><span id="typed-top"></span></p>
+        </div>
+        <div class="right-toggle">
+          <span></span>
+        </div>
+      </div>
+      <!-------------- Navbar Part ---------------->
+      <nav class="header-navbar" id="myScrollspy">
+        <ul>
+          <a id="aboutMenu" href="#about">
+            <li class="active">
+              <i class="fa fa-home"></i>
+              <p>About</p>
+            </li>
+          </a>
+          <a id="resumeMenu" href="#resume" onclick="runAbout()">
+            <li>
+              <i class="far fa-newspaper"></i>
+              <p>Resume</p>
+            </li>
+          </a>
+          <a id="blogMenu" href="#blog" onclick="runAbout()">
+            <li>
+              <i class="fas fa-pen-square"></i>
+              <p>Blog</p>
+            </li>
+          </a>
+          <a id="workMenu" href="#work" onclick="runAbout()">
+            <li>
+              <i class="fa fa-archive"></i>
+              <p>Work</p>
+            </li>
+          </a>
+          <a id="contactMenu" href="#contact" onclick="runAbout()">
+            <li>
+              <i class="fas fa-paper-plane"></i>
+              <p>Contact</p>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <!-------------- Cart Part ---------------->
+    <div class="row cart">
+      <!-------------- Left side of the cart ---------------->
+      <div class="left-side col-md-12 col-lg-4">
+        <div class="header-photo">
+          <div class="profile">
+            <img src="./inc/images/main_photo.jpg" alt="profile" />
+          </div>
+        </div>
+        <div class="name">Mohammad Sayem</div>
+        <div id="typed-strings">
+          <p>Web Designer</p>
+          <p>Graphic Designer</p>
+          <p>Web Developer</p>
+        </div>
+        <p class="typing"><span id="typed"></span></p>
+        <div class="social">
+          <a href="http://facebook.com/sayem.me" target="_blank" rel="noopener noreferrer"><i
+              class="fas fa-globe"></i></a>
+          <a href="http://facebook.com/sayem.me" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://facebook.com/sayem.me" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-youtube"></i>
+          </a>
+          <a href="http://facebook.com/sayem.me" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-instagram"></i>
+          </a>
+          <a href="http://facebook.com/sayem.me" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="download-btn">
+          <a href="http://" target="_blank" class="download">Download CV</a>
+        </div>
+      </div>
+      <!-------------- Right side of the cart ---------------->
+      <div data-spy="scroll" data-target="#myScrollspy" class="right-side col-md-12 col-lg-8">
+        <!-------------- About section ---------------->
+        <section id="about" class="about animated show">
+          <!-------------- About me ---------------->
+          <div class="page-title">
+            <span class="first-word">About</span> Me
+          </div>
+          <div class="row border-line-v">
+            <div class="col-md-6">
+              <div class="text-box">
+                <p>
+                  <strong>Hello! I’m Mohammad Sayem.</strong><br />
+                  Web designer from USA, California. I have rich experience in
+                  web site design and building, also I am good at wordpress. I
+                  love to talk with you about our unique.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-list">
+                <ul>
+                  <li>
+                    <span class="title">Age</span>
+                    <span class="value">19</span>
+                  </li>
+                  <li>
+                    <span class="title">Residence</span>
+                    <span class="value">Bangladesh</span>
+                  </li>
+                  <li>
+                    <span class="title">Address</span>
+                    <span class="value">Boluar Dighee, West Side, Chattogram</span>
+                  </li>
+                  <li>
+                    <span class="title">E-mail</span>
+                    <span class="value">msayem089@gmail.com</span>
+                  </li>
+                  <li>
+                    <span class="title">Phone</span>
+                    <span class="value">+8801515-675571</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------------- Services ---------------->
+          <div class="page-title">
+            <span class="first-word">My</span> Services
+          </div>
+          <div class="row service border-line-v">
+            <div class="col-sm-6 border-line-h">
+              <div class="service-item">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="service-title">Web Development</div>
+                <p>
+                  Modern and mobile-ready website that will help you reach all
+                  of your marketing.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 border-line-h">
+              <div class="service-item">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="service-title">Web Development</div>
+                <p>
+                  Modern and mobile-ready website that will help you reach all
+                  of your marketing.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 border-line-h">
+              <div class="service-item">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="service-title">Web Development</div>
+                <p>
+                  Modern and mobile-ready website that will help you reach all
+                  of your marketing.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-6 border-line-h">
+              <div class="service-item">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="service-title">Web Development</div>
+                <p>
+                  Modern and mobile-ready website that will help you reach all
+                  of your marketing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-------------- Pricing ---------------->
+          <div class="page-title">
+            <span class="first-word">Pricing</span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="silver">
+                <div class="price-name">Silver</div>
+                <div class="money">&#36;50</div>
+                <p>per month</p>
+                <button class="buy-btn"><a href="#">Buy Silver</a></button>
+                <div class="feature-list">
+                  <ul>
+                    <li>Web Development</li>
+                    <li>Advetising</li>
+                    <li>Graphic Desigh</li>
+                    <li>Game Development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="gold">
+                <div class="price-name">Gold</div>
+                <div class="money">&#36;150</div>
+                <p>per month</p>
+                <button class="buy-btn"><a href="#">Buy Gold</a></button>
+                <div class="feature-list">
+                  <ul>
+                    <li>Web Development</li>
+                    <li>Advetising</li>
+                    <li>Graphic Desigh</li>
+                    <li>Game Development</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-------------- Fun facts ---------------->
+          <div class="page-title">
+            <span class="first-word">Fun</span> Facts
+          </div>
+          <div class="row fact border-line-v">
+            <div class="col-md-3 col-6 fact-line">
+              <div class="facts-item ">
+                <div class="fact-icon"><i class="fas fa-smile-wink"></i></div>
+                <p>Happy Clients</p>
+                <p class="number">420</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 fact-line">
+              <div class="facts-item">
+                <div class="fact-icon"><i class="fas fa-stopwatch"></i></div>
+                <p>Working Hours</p>
+                <p class="number">4,420</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 fact-line">
+              <div class="facts-item">
+                <div class="fact-icon"><i class="fas fa-award"></i></div>
+                <p>Award Won</p>
+                <p class="number">10</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 fact-line">
+              <div class="facts-item">
+                <div class="fact-icon"><i class="fas fa-globe-asia"></i></div>
+                <p>Countries Visited</p>
+                <p class="number">5</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--------------------------------- Resume section -------------------------------->
+        <section id="resume" class="resume">
+          <!-------------- Resume ---------------->
+          <div class="page-title">
+            <span class="first-word">Resume</span>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <!-------------- Edcation ---------------->
+              <span class="subtitle border-line-h"><i class="fas fa-graduation-cap"></i> Education</span>
+              <div class="resume-education">
+                <ul>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-graduation-cap"></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">COMPUTER ENGINEERING - PHD</div>
+                      <h4>University of Bangladesh</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-graduation-cap"></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">COMPUTER ENGINEERING - PHD</div>
+                      <h4>University of Bangladesh</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-graduation-cap"></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">COMPUTER ENGINEERING - PHD</div>
+                      <h4>University of Bangladesh</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-------------- Experience ---------------->
+              <span class="subtitle border-line-h"><i class="fas fa-briefcase"></i> Experience</span>
+              <div class="resume-experience">
+                <ul>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-briefcase"></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">Front-End Developer</div>
+                      <h4>University of Dhaka</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-briefcase"></i></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">Front-End Developer</div>
+                      <h4>University of Dhaka</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="resume-tag">
+                      <i class="fas fa-briefcase"></i>
+                      <div class="resume-date">
+                        <span>2010</span>
+                        <div class="separator"></div>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="timeline-location"><i class="fas fa-map-marker-alt"></i>Banglasesh</span>
+                      <div class="timeline-header">Front-End Developer</div>
+                      <h4>University of Dhaka</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil sint consequuntur aspernatur
+                        deserunt culpa quaerat debitis odit dolores minima?
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------------- Skills ---------------->
+          <div class="page-title">
+            <span class="first-word">My</span> Skills
+          </div>
+          <div class="row skill border-line-v">
+            <div class="col-sm-6">
+              <span class="subtitle border-line-h"><i class="fas fa-palette"></i> Design</span>
+              <div class="skill-item">
+                <div class="skill-title">
+                  <h4>Web Design</h4>
+                  <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 95%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>Graphic Design</h4>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 85%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>Logo Design</h4>
+                  <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 75%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>Print Design</h4>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <span class="subtitle border-line-h"><i class="fas fa-laptop-code"></i> Coding</span>
+              <div class="skill-item">
+                <div class="skill-title">
+                  <h4>HTML</h4>
+                  <span>100%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 100%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>CSS</h4>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 80%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>Javasctipt</h4>
+                  <span>65%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 65%;"></div>
+                </div>
+                <div class="skill-title">
+                  <h4>PHP</h4>
+                  <span>50%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-percentage" style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <span class="subtitle border-line-h"><i class="fas fa-clipboard-list"></i> Knowledge</span>
+              <div class="knowledge-item">
+                <ul>
+                  <li>Website hosting</li>
+                  <li>iOS and android apps</li>
+                  <li>Create logo design</li>
+                  <li>Design for print</li>
+                  <li>Modern and mobile-ready</li>
+                  <li>Advertising services include</li>
+                  <li>Graphics and animations</li>
+                  <li>Search engine marketing</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <span class="subtitle border-line-h"><i class="fas fa-flag"></i> Language</span>
+              <div class="language-item">
+                <ul>
+                  <li>
+                    <h4>Bangla</h4><span>Native</span>
+                  </li>
+                  <li>
+                    <h4>English</h4><span>Conversational</span>
+                  </li>
+                  <li>
+                    <h4>Urdu</h4><span>Fluent</span>
+                  </li>
+                  <li>
+                    <h4>Hindi</h4><span>Fluent</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------------- Testimonial ---------------->
+          <div class="page-title">
+            <span class="first-word">Testimonials</span>
+          </div>
+          <div class="row testimonial">
+            <div class="col-12">
+              <!----- Swiper ------>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio saepe modi eaque optio
+                        dolorum repellat quasi doloribus cumque reiciendis voluptas?
+                      </p>
+                      <div class="user">
+                        <div class="img"><img src="./inc/images/man.jpg" alt="man"></div>
+                        <div class="user-name">Alex Meson</div>
+                        <div class="company">
+                          Google Inc.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio saepe modi eaque optio
+                        dolorum repellat quasi doloribus cumque reiciendis voluptas?
+                      </p>
+                      <div class="user">
+                        <div class="img"><img src="./inc/images/man.jpg" alt="man"></div>
+                        <div class="user-name">Alex Meson</div>
+                        <div class="company">
+                          Google Inc.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio saepe modi eaque optio
+                        dolorum repellat quasi doloribus cumque reiciendis voluptas?
+                      </p>
+                      <div class="user">
+                        <div class="img"><img src="./inc/images/man.jpg" alt="man"></div>
+                        <div class="user-name">Alex Meson</div>
+                        <div class="company">
+                          Google Inc.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------ Add Pagination for swiper ------>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------------------------------------ Blog Section --------------------------------->
+        <section id="blog" class="blog">
+          <!-------------------- Blog posts --------------------->
+          <div class="page-title">
+            <span class="first-word">Blog</span>
+          </div>
+          <div class="row border-line-v">
+            <div class="col-md-6 border-line-h">
+              <div class="post-item">
+                <div class="thumbnail">
+                  <img src="./inc/images/nature1.jpg" alt="">
+                  <div class="post-time">
+                    <div class="date">29</div>
+                    <div class="month">May</div>
+                  </div>
+                  <div class="post-meta">
+                    <span class="post-user">Posted By<i class="fas fa-user"></i><a href="#">Mohammad Sayem</a></span>
+                    <p class="categoty">in<i class="fas fa-folder-open"></i><a href="#">WordPress</a></p>
+                    <p class="comment">| with<i class="fas fa-comment-alt"></i><a href="#">3</a></p>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <div class="post-title">
+                    <a href="">Creativity Is More Than</a>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quibusdam provident optio
+                    numquam.
+                    Consectetur, repellat?
+                    <a href="#">Read more . . .</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 border-line-h">
+              <div class="post-item">
+                <div class="thumbnail">
+                  <img src="./inc/images/nature2.jpg" alt="">
+                  <div class="post-time">
+                    <div class="date">29</div>
+                    <div class="month">May</div>
+                  </div>
+                  <div class="post-meta">
+                    <span class="post-user">Posted By<i class="fas fa-user"></i><a href="#">Mohammad Sayem</a></span>
+                    <p class="categoty">in<i class="fas fa-folder-open"></i><a href="#">WordPress</a></p>
+                    <p class="comment">| with<i class="fas fa-comment-alt"></i><a href="#">3</a></p>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <div class="post-title">
+                    <a href="">Creativity Is More Than</a>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quibusdam provident optio
+                    numquam.
+                    Consectetur, repellat?
+                    <a href="#">Read more . . .</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 border-line-h">
+              <div class="post-item">
+                <div class="thumbnail">
+                  <img src="./inc/images/nature3.jpg" alt="">
+                  <div class="post-time">
+                    <div class="date">29</div>
+                    <div class="month">May</div>
+                  </div>
+                  <div class="post-meta">
+                    <span class="post-user">Posted By<i class="fas fa-user"></i><a href="#">Mohammad Sayem</a></span>
+                    <p class="categoty">in<i class="fas fa-folder-open"></i><a href="#">WordPress</a></p>
+                    <p class="comment">| with<i class="fas fa-comment-alt"></i><a href="#">3</a></p>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <div class="post-title">
+                    <a href="">Creativity Is More Than</a>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quibusdam provident optio
+                    numquam.
+                    Consectetur, repellat?
+                    <a href="#">Read more . . .</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 border-line-h">
+              <div class="post-item">
+                <div class="thumbnail">
+                  <img src="./inc/images/nature4.jpg" alt="">
+                  <div class="post-time">
+                    <div class="date">29</div>
+                    <div class="month">May</div>
+                  </div>
+                  <div class="post-meta">
+                    <span class="post-user">Posted By<i class="fas fa-user"></i><a href="#">Mohammad Sayem</a></span>
+                    <p class="categoty">in<i class="fas fa-folder-open"></i><a href="#">WordPress</a></p>
+                    <p class="comment">| with<i class="fas fa-comment-alt"></i><a href="#">3</a></p>
+                  </div>
+                </div>
+                <div class="post-body">
+                  <div class="post-title">
+                    <a href="">Creativity Is More Than</a>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quibusdam provident optio
+                    numquam.
+                    Consectetur, repellat?
+                    <a href="#">Read more . . .</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 blog-pagination">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#">Prev</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active">
+                    <span class="page-link">
+                      2
+                      <span class="sr-only">(current)</span>
+                    </span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <!----------------------------------- Work Section ---------------------------------->
+        <section id="work" class="work">
+          <div class="page-title">
+            <span class="first-word">Work</span>
+            <!--------------- Work category name ---------------->
+            <div class="category-name">
+              <span id="all" data-filter="all">All</span>
+              <span id="video" data-filter=".video">Video</span>
+              <span id="photo" data-filter=".photo">Photo</span>
+              <span id="youtube" data-filter=".youtube">Youtube</span>
+              <span id="design" data-filter=".design">Design</span>
+            </div>
+          </div>
+          <!--------------- Portfolio ---------------->
+          <!-- Hidden video div -->
+          <div style="display:none;" id="video1">
+            <video class="lg-video-object lg-html5" controls preload="none">
+              <source src="./inc/videos/Gameplay.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+          <div class="row portfolio border-line-v captions html5-videos video-gallery video-thumbnails">
+            <div class="col-md-6 mix video"
+              data-sub-html="<h4>Caption</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, impedit.</p>"
+              data-html="#video1">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/thumbnail.jpg" />
+                  <div class="work-icon"><i class="fas fa-video"></i></div>
+                </div>
+                <div class="work-title">Free Fire Gameplay</div>
+                <div class="work-type">Video</div>
+              </div>
+            </div>
+            <a class="col-md-6 mix design photo" href="./inc/images/nature1.jpg"
+              data-sub-html="<h4>Caption</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, impedit.</p>">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/nature1.jpg" alt="">
+                  <div class="work-icon"><i class="fas fa-image"></i></div>
+                </div>
+                <div class="work-title">Motorcycle Helmet</div>
+                <div class="work-type">Photo</div>
+              </div>
+            </a>
+            <a class="col-md-6 mix design photo" href="./inc/images/nature3.jpg"
+              data-sub-html="<h4>Caption</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, impedit.</p>">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/nature3.jpg" alt="">
+                  <div class="work-icon"><i class="fas fa-image"></i></div>
+                </div>
+                <div class="work-title">Motorcycle Helmet</div>
+                <div class="work-type">Photo</div>
+              </div>
+            </a>
+            <a class="col-md-6 mix design photo" href="./inc/images/portfolio-img1.jpg"
+              data-sub-html="<h4>Caption</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, impedit.</p>">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/portfolio-img1.jpg" alt="">
+                  <div class="work-icon"><i class="fas fa-image"></i></div>
+                </div>
+                <div class="work-title">Motorcycle Helmet</div>
+                <div class="work-type">Photo</div>
+              </div>
+            </a>
+            <a class="col-md-6 mix youtube" href="https://www.youtube.com/watch?v=riDzcEQbX6k">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/youtube.png" alt="">
+                  <div class="work-icon"><i class="fab fa-youtube"></i></div>
+                </div>
+                <div class="work-title">Motorcycle Helmet</div>
+                <div class="work-type">Photo</div>
+              </div>
+            </a>
+            <a class="col-md-6 mix youtube" href="https://www.youtube.com/watch?v=CVClHLwv-4I">
+              <div class="work-item">
+                <div class="work-img">
+                  <img src="./inc/images/youtube.png" alt="">
+                  <div class="work-icon"><i class="fab fa-youtube"></i></div>
+                </div>
+                <div class="work-title">Motorcycle Helmet</div>
+                <div class="work-type">Photo</div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!---------------------------------- Contact Section ------------------------------------>
+        <section id="contact" class="contact">
+          <div class="page-title">
+            <span class="first-word">Get</span> in Touch
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.5834705037021!2d91.84170348804433!3d22.341018499076895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2744a0cc8df9%3A0x9fffe9bdf33398be!2sBoluar%20Dighee%20West%20Side%20Rd%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1586431262365!5m2!1sen!2sbd"
+                  width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0">
+                </iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-list col-12">
+              <h4>Phone<a href="tel:+8801515-675571">+8801515-675571</a></h4>
+              <h4>Address <span>Boluar Dighi, West-side, Chattogram</span></h4>
+              <h4>E-mail<a href="mailto: msayem089@gmail.com">msayem089@gmail.com</a></h4>
+              <h4>Freelance<span>Available</span></h4>
+            </div>
+          </div>
+          <div class="page-title">
+            <span class="first-word">Contact</span> Form
+          </div>
+          <form class="contact-form row">
+            <div class="col-sm-6">
+              <input class="form-control form-control-lg" type="text" placeholder="Full Name">
+            </div>
+            <div class="col-sm-6">
+              <input class="form-control form-control-lg" type="email" placeholder="Email Address">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" placeholder="Your Message"
+                rows="3"></textarea>
+            </div>
+            <button class="submit">Send Message</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
